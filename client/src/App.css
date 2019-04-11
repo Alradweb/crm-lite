@@ -1,0 +1,105 @@
+.logo-app{
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+.logo-mb{
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    padding: 0;
+    font-size: 1.1rem;
+}
+.active-link{
+    background-color: rgba(0,0,0,0.1);
+}
+.correct-size{
+    max-width: 100px;
+    margin: 0 auto;
+    color: #ff6347
+}
+.item-hover:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.1);
+}
+.btn-hidden{
+    visibility: hidden;
+}
+.not-gloomy{
+    color: #039be5;
+}
+.not-gloomy:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.dli{
+    display: list-item;
+}
+.img-not-found{
+    height: 100vh;
+    background-image: url("./images/IMG404-not-found.jpg");
+    background-size: 150px;
+
+}
+.img-not-found .main-title{
+    top: 33%;
+}
+.content-mobile{
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: unset;
+    overflow: hidden;
+}
+.content-mobile .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.content-mobile .order-row .card{
+    margin-right: 0;
+}
+.page-title-mobile{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-list{
+    display: flex;
+    justify-content: center;
+}
+
+nav .nav-wrapper-pl{
+    padding-left: 15px;
+}
+
+.nav-wrapper .mobile-button{
+    margin-left: 10px;
+    background-color: inherit;
+    box-shadow: unset;
+}
+.fr-mobile{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.fr-order .order-position-input{
+    width: 100%;
+    margin-left: 0;
+}
+.fs-mobile{
+    font-size: 12px;
+    line-height: inherit;
+}
+.mb-btn{
+    margin-bottom: 30px;
+}
+.mb-tbl{
+    margin-bottom: 100px;
+}
+.mb-form{
+    margin-bottom: 20px;
+}
+.mb-pf{
+    margin-bottom: 60px;
+}

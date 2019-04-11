@@ -1,0 +1,161 @@
+
+.main-container {
+    position: relative;
+    max-width: 100vw;
+    text-align: center;
+    overflow: hidden
+}
+
+.main-title {
+    position: absolute;
+    font-size: 128px;
+    font-weight: 900;
+    color: white;
+    left: 0;
+    right: 0;
+}
+
+@media all and (max-width: 768px) {
+    .main-title {
+        font-size: 72px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .main-title {
+        font-size: 56px;
+    }
+
+    .logo-app {
+        font-size: 1rem;
+        line-height: 56px;
+    }
+}
+
+@keyframes motion {
+    from {
+        transform: translateX(150px) translateY(20px) scale(0.2);
+        opacity: 0;
+
+    }
+    50% {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes motionleft {
+    from {
+        transform: translateX(120px) scale(0.2) translateY(40px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cloud,
+#cloud2,
+#cloud4,
+#cloud6,
+#cloud8,
+#cloud10,
+#cloud15,
+#cloud16,
+#cloud17,
+#cloud18 {
+    animation: 8s motion infinite;
+}
+
+#cloud1,
+#cloud3,
+#cloud5,
+#cloud7,
+#cloud1,
+#cloud11,
+#cloud12,
+#cloud13,
+#cloud14 {
+    animation: 9s motionleft infinite;
+}
+
+#cloud2 {
+    animation-delay: 1s;
+}
+
+#cloud3 {
+    animation-delay: 2s;
+}
+
+#cloud4 {
+    animation-delay: 3s;
+}
+
+#cloud5 {
+    animation-delay: 4s;
+}
+
+#cloud6 {
+    animation-delay: 5s;
+}
+
+#cloud7 {
+    animation-delay: 6s;
+}
+
+#cloud9 {
+    animation-delay: 7s;
+}
+
+#cloud10 {
+    animation-delay: 8s;
+}
+
+#cloud8 {
+    animation-delay: 2s;
+}
+
+#cloud11 {
+    animation-delay: 2.5s;
+}
+
+#cloud12 {
+    animation-delay: 5.5s;
+}
+
+#cloud3 {
+    animation-delay: 8.5s;
+}
+
+#cloud14 {
+    animation-delay: 6.5s;
+}
+
+#cloud15 {
+    animation-delay: 4.5s;
+}
+
+#cloud16 {
+    animation-delay: 3.5s;
+}
+
+#cloud16 {
+    animation-delay: 2.5s;
+}
+
+#cloud16 {
+    animation-delay: 1.5s;
+}
+
+#cloud17 {
+    animation-delay: 8s;
+}
+
+#cloud18 {
+    animation-delay: 9s;
+}
